@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "migration:create": "npx migrate create",
+    "prestart": "npx migrate up",
     "start": "node index.js"
   },
   "keywords": [],
@@ -11,6 +13,7 @@
   "description": "",
   "dependencies": {
     "dotenv": "^16.4.5",
-    "mongoose": "^8.8.2"
+    "mongoose": "^8.8.2",
+    "ts-migrate-mongoose": "^3.8.5"
   }
 }

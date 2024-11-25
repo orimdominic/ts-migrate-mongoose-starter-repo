@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 module.exports.connect = function (url) {
   return mongoose
     .connect(url)
-    .then(() => {
+    .then(async () => {
       console.info("MongoDB connection successful");
     })
     .catch((err) => {
