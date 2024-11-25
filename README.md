@@ -5,7 +5,7 @@ Starter project for FreeCodeCamp article
 ## Setting Up
 
 1. You need to have MongoDB, Node.js and npm installed.
-2. Create a `.env` file at the root of the project and copy the content of [.env.template]("./.env.template") to it. You can replace the values of the environment variables if you want.
+2. Create a `.env` file at the root of the project and copy the content of [.env.template](.env.template) to it. You can replace the values of the environment variables if you want.
 3. Run `npm install` to install the project's dependencies
 
 ## Running the Application
